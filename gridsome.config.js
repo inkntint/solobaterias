@@ -18,15 +18,7 @@ module.exports = {
       use: "@gridsome/source-filesystem",
       options: {
         typeName: "Theme",
-        baseDir: "./content/site_settings/theme",
-        path: "*.json"
-      }
-    },
-    {
-      use: "@gridsome/source-filesystem",
-      options: {
-        typeName: "SiteMetadata",
-        baseDir: "./content/site_settings/metadata",
+        baseDir: "./content/site_settings",
         path: "*.json"
       }
     }
