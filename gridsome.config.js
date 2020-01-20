@@ -13,7 +13,24 @@ const Purgecss = require("@fullhuman/postcss-purgecss")({
 
 module.exports = {
   siteName: "Gridsome",
-  plugins: [],
+  plugins: [
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        typeName: "Theme",
+        baseDir: "./content/site_settings/theme",
+        path: "*.json"
+      }
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        typeName: "SiteMetadata",
+        baseDir: "./content/site_settings/metadata",
+        path: "*.json"
+      }
+    }
+  ],
   css: {
     loaderOptions: {
       postcss: {
