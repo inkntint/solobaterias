@@ -1,0 +1,18 @@
+---
+label: metadata
+hide_body: true
+fields:
+- type: text
+  name: siteName
+  label: siteName
+- type: field_group
+  name: pages
+  label: pages
+  fields:
+  - type: field_group
+    name: home
+    label: home
+    fields:
+    - type: text
+      name: description
+      label: description
