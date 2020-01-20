@@ -7,13 +7,8 @@ sections:
 - type: heading
   label: Configuración del sitio
 - type: directory
-  path: content/site_settings/metadata
+  path: content/site_settings
   label: Metadata
-  create: none
-  match: "*.json"
-- type: directory
-  path: content/site_settings/theme
-  label: Tema
   create: none
   match: "*.json"
 upload_dir: uploads
