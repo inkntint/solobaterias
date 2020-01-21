@@ -15,14 +15,5 @@
       "category_icon": "/uploads/category-24px.svg"
     }
   ],
-  "metadata": {
-    "siteUrl": "site url",
-    "pages": {
-      "home": {
-        "title": "home page title",
-        "description": "home page description"
-      }
-    }
-  },
   "site_url": "https://mipagina.com"
 }
