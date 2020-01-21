@@ -38,8 +38,3 @@ fields:
   type: tag_list
   default: []
   label: Categorias
-- name: l
-  type: include
-  config: {}
-  template: theme
-  label: l
