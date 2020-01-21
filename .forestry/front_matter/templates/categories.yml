@@ -1,4 +1,12 @@
 ---
 label: Categories
 hide_body: true
-fields: []
+fields:
+- name: categories
+  type: blocks
+  label: Categorias
+  template_types:
+  - categories
+  config:
+    min: 
+    max: 
