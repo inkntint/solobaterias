@@ -1,10 +1,19 @@
 {
-  "logo": "",
-  "hero_img": "",
-  "hero_message": "",
+  "logo": "/uploads/logo-circle-dark.svg",
+  "hero_img": "/uploads/hero.jpg",
+  "hero_message": "Mensaje corto pero atractivo acerca de tu producto",
   "whatsapp_number": "",
   "site_categories": [
-
+    {
+      "category_title": "Categoría 1",
+      "category_url_path": "/categoria-1",
+      "category_icon": "/uploads/category-24px.svg"
+    },
+    {
+      "category_title": "Categoría 2",
+      "category_url_path": "/categoria-2",
+      "category_icon": "/uploads/category-24px.svg"
+    }
   ],
   "metadata": {
     "siteUrl": "site url",
@@ -14,5 +23,6 @@
         "description": "home page description"
       }
     }
-  }
+  },
+  "site_url": "https://mipagina.com"
 }
