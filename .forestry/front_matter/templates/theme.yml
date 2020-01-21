@@ -34,15 +34,3 @@ fields:
     max: 
     step: 
     required: true
-- name: categories
-  type: tag_list
-  default: []
-  label: Categorias
-- name: tt
-  type: blocks
-  label: tt
-  template_types:
-  - theme
-  config:
-    min: 
-    max: 
