@@ -12,7 +12,6 @@ const Purgecss = require("@fullhuman/postcss-purgecss")({
 });
 
 module.exports = {
-  siteName: "Gridsome",
   plugins: [
     {
       use: "@gridsome/source-filesystem",
@@ -21,8 +20,26 @@ module.exports = {
         baseDir: "./content/site_settings",
         path: "*.json"
       }
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        typeName: "Product",
+        baseDir: "./content/products",
+        path: "*.json",
+        refs: {
+          category: {
+            typeName: "Category",
+            create: true
+          }
+        }
+      }
     }
   ],
+  templates: {
+    Product: "/:category/:title",
+    Category: "/:title"
+  },
   css: {
     loaderOptions: {
       postcss: {
