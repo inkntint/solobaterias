@@ -34,6 +34,13 @@ fields:
     max: 
     step: 
     required: true
+- name: site_url
+  type: text
+  config:
+    required: true
+  label: URL del sitio
+  description: p.ej. https://mipagina.com
+  default: https://mipagina.com
 - name: site_categories
   type: field_group_list
   fields:
