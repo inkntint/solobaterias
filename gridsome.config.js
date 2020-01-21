@@ -16,7 +16,7 @@ module.exports = {
     {
       use: "@gridsome/source-filesystem",
       options: {
-        typeName: "Theme",
+        typeName: "GeneralSiteSettings",
         baseDir: "./content/site_settings",
         path: "*.json"
       }
