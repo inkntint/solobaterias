@@ -8,7 +8,7 @@ sections:
   label: Configuración del sitio
 - type: directory
   path: content/site_settings
-  label: Metadata
+  label: General
   create: none
   match: "*.json"
 upload_dir: uploads
