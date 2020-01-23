@@ -1,23 +1,21 @@
 <template>
-	<div>
-		<app-header />
-		<section class="section">
-			<div class="container">
-				<app-categories />
-				<slot name="body" />
-			</div>
-		</section>
-	</div>
+  <div>
+    <app-header />
+    <app-section>
+      <app-categories />
+    </app-section>
+    <slot />
+  </div>
 </template>
 
 <script>
-	import AppHeader from "../components/AppHeader";
-	import AppCategories from "../components/AppCategories";
+import AppHeader from "../components/AppHeader";
+import AppCategories from "../components/AppCategories";
 
-	export default {
-		components: {
-			AppHeader,
-			AppCategories
-		}
-	};
+export default {
+  components: {
+    AppHeader,
+    AppCategories
+  }
+};
 </script>

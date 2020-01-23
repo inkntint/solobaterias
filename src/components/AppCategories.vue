@@ -1,40 +1,39 @@
 <template>
-	<ul class="is-flex">
-		<li
-			class="mr-2"
-			v-for="category in $static.allGeneralSiteSettings.edges[0].node
-				.site_categories"
-			:key="category.category_title"
-		>
-			<g-link
-				:to="category.category_url_path"
-				class="is-block"
-				exact-active-class="test"
-				exact
-			>
-				<div class="is-flex items-center h-8 has-background-white-ter rounded">
-					<g-image :src="category.category_icon" class="ml-1" />
-					<span class="is-size-7 ml-2 mr-3">
-						{{ category.category_title }}
-					</span>
-				</div>
-			</g-link>
-		</li>
-	</ul>
+  <ul class="category-list is-flex overflow-x-scroll">
+    <li
+      v-for="{ node } in $static.allCategory.edges"
+      :key="node.title"
+      class="mr-2 flex-shrink-0"
+    >
+      <g-link :to="node.path" class="is-block" exact-active-class="exact" exact>
+        <div class="is-flex items-center h-8 has-background-white-ter rounded">
+          <span class="text-sm mx-3 has-text-grey-dark tracking-wide">
+            {{ node.title }} ({{ node.belongsTo.totalCount }})
+          </span>
+        </div>
+      </g-link>
+    </li>
+  </ul>
 </template>
 
 <static-query>
-query AllGeneralSiteSettings {
-  allGeneralSiteSettings {
+query AllCategory {
+  allCategory {
     edges {
       node {
-        site_categories {
-          category_title
-          category_url_path
-          category_icon
+        title
+        path
+        belongsTo {
+          totalCount
         }
       }
     }
   }
 }
 </static-query>
+
+<style>
+.category-list::-webkit-scrollbar {
+  display: none;
+}
+</style>

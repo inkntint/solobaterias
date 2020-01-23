@@ -1,13 +1,13 @@
 <template>
-	<app-shell>
-		<template #body>
-			<!-- <app-categories /> -->
-		</template>
-	</app-shell>
+  <app-shell>
+    <app-section class="pt-0">
+      Hello, world!
+    </app-section>
+  </app-shell>
 </template>
 
 <script>
-	export default {
-		components: {}
-	};
+export default {
+  components: {}
+};
 </script>

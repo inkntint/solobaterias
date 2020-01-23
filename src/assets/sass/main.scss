@@ -4,6 +4,8 @@
 
 // Set your colors
 $primary: #80e27e;
+$primary-light: #bdf0bc;
+$primary-dark: #087f23;
 $primary-invert: findColorInvert($primary);
 $twitter: #4099ff;
 $twitter-invert: findColorInvert($twitter);
@@ -11,6 +13,12 @@ $family-sans-serif: CircularStd, BlinkMacSystemFont, -apple-system, "Segoe UI",
   "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
   "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 $family-primary: $family-sans-serif;
+.exact div {
+  background-color: $primary-light !important;
+}
+.exact div span {
+  color: $primary-dark !important;
+}
 
 // Setup $colors to use as bulma classes (e.g. 'is-twitter')
 $colors: (

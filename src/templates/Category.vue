@@ -1,13 +1,17 @@
 <template>
-	<ul>
-		<li v-for="{ node } in $page.category.belongsTo.edges" :key="node.id">
-			<g-link :to="node.path">
-				<h6>
-					{{ node.title }}
-				</h6>
-			</g-link>
-		</li>
-	</ul>
+  <app-shell>
+    <template #body>
+      <ul>
+        <li v-for="{ node } in $page.category.belongsTo.edges" :key="node.id">
+          <g-link :to="node.path">
+            <h6>
+              {{ node.title }}
+            </h6>
+          </g-link>
+        </li>
+      </ul>
+    </template>
+  </app-shell>
 </template>
 
 <page-query>
