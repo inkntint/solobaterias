@@ -9,6 +9,24 @@ fields:
     max: '60'
   label: Título
   description: Ingresa el título del producto
+- name: category
+  type: select
+  default: Piedras preciosas
+  config:
+    required: true
+    options:
+    - Piedras preciosas
+    - Semi preciosas
+    - Fósil
+    - Raras
+    - Otros
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Categoría
+  description: Selecciona la categoría del producto
 - name: unit_price
   type: text
   config:
