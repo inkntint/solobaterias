@@ -52,7 +52,7 @@ fields:
   default: false
 - name: sellable
   type: boolean
-  label: Vendible
+  label: Product vendible
   description: Productos vendibles tendrán botón de compra en la página
 - name: payu_purchase_link
   type: text
