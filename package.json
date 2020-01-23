@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "buefy": "^0.8.9",
+    "circular-std": "^1.0.3",
     "gridsome": "^0.7.0"
   },
   "devDependencies": {
