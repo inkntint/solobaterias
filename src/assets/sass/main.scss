@@ -1,11 +1,16 @@
 // Import Bulma's core
 @import "~bulma/sass/utilities/_all";
+@import "bulma/sass/grid/columns.sass";
 
 // Set your colors
-$primary: #8c67ef;
+$primary: #80e27e;
 $primary-invert: findColorInvert($primary);
 $twitter: #4099ff;
 $twitter-invert: findColorInvert($twitter);
+$family-sans-serif: CircularStd, BlinkMacSystemFont, -apple-system, "Segoe UI",
+  "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+  "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+$family-primary: $family-sans-serif;
 
 // Setup $colors to use as bulma classes (e.g. 'is-twitter')
 $colors: (
