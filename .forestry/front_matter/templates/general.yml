@@ -30,32 +30,3 @@ fields:
   label: URL del sitio
   description: p.ej. https://mipagina.com
   default: https://mipagina.com
-- name: site_categories
-  type: field_group_list
-  fields:
-  - name: category_title
-    type: text
-    config:
-      required: true
-    label: Título de la categoría
-    description: p.ej. Electrodomésticos
-    default: Categoría 1
-  - name: category_url_path
-    type: text
-    config:
-      required: true
-    label: URL de la categoría relativa a la raíz del sitio
-    description: p.ej. /electrodomesticos
-    default: "/categoria-1"
-  - name: category_icon
-    type: file
-    config:
-      maxSize: '1'
-    label: Icono de la categoría
-    description: Icono con extensión .svg (24x24 pixels)
-    default: "/uploads/category-24px.svg"
-  config:
-    min: 
-    max: 
-    labelField: category_title
-  label: Categorías del sitio
