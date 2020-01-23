@@ -18,7 +18,8 @@ module.exports = {
       options: {
         typeName: "GeneralSiteSettings",
         baseDir: "./content/site_settings",
-        path: "*.json"
+        path: "*.json",
+        resolveAbsolutePaths: true
       }
     },
     {
@@ -27,6 +28,7 @@ module.exports = {
         typeName: "Product",
         baseDir: "./content/products",
         path: "*.json",
+        resolveAbsolutePaths: true,
         refs: {
           category: {
             typeName: "Category",
