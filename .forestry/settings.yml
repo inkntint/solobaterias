@@ -13,6 +13,16 @@ sections:
   match: "*.json"
   templates:
   - general
+- type: heading
+  label: Contenido
+- type: directory
+  path: content/products
+  label: Productos
+  create: documents
+  match: "*.md"
+  new_doc_ext: ".md"
+  templates:
+  - products
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
