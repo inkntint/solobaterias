@@ -18,7 +18,7 @@ module.exports = {
       options: {
         typeName: "GeneralSiteSettings",
         baseDir: "./content/site_settings",
-        path: "*.json",
+        path: "*.md",
         resolveAbsolutePaths: true
       }
     },
