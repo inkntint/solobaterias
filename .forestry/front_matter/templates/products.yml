@@ -1,4 +1,47 @@
 ---
 label: Products
-hide_body: true
-fields: []
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+    max: '60'
+  label: Título
+  description: Ingresa el título del producto
+- name: unit_price
+  type: text
+  config:
+    required: true
+  label: Precio
+  description: Precio del producto sin "$" o "COP"
+- name: images
+  type: image_gallery
+  config: {}
+  label: Fotos
+  description: Fotos del producto
+  showOnly:
+    value: false
+- name: available
+  type: boolean
+  label: Producto disponible
+  description: Indica si el producto está disponible
+  default: true
+- name: featured
+  type: boolean
+  label: Producto destacado
+  description: Productos destacados aparecen de primero en la página
+  default: false
+- name: sellable
+  type: boolean
+  label: Vendible
+  description: Productos vendibles tendrán botón de compra en la página
+- name: payu_purchase_link
+  type: text
+  config:
+    required: true
+  label: Link de compra
+  description: Link de compra de PayU
+  showOnly:
+    field: sellable
+    value: true
