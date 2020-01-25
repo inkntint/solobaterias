@@ -52,7 +52,7 @@ fields:
   default: false
 - name: sellable
   type: boolean
-  label: Product vendible
+  label: Producto vendible
   description: Productos vendibles tendrán botón de compra en la página
   showOnly:
     field: available
