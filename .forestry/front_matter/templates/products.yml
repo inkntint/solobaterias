@@ -60,7 +60,7 @@ fields:
 - name: payu_purchase_link
   type: text
   config:
-    required: true
+    required: false
   label: Link de compra
   description: Link de compra de PayU
   showOnly:
