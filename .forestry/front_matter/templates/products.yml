@@ -54,6 +54,8 @@ fields:
   type: boolean
   label: Product vendible
   description: Productos vendibles tendrán botón de compra en la página
+  showOnly:
+    field: available
 - name: payu_purchase_link
   type: text
   config:
