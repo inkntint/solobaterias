@@ -10,7 +10,7 @@ images:
 - "/uploads/Cuarzo Rutilo De Oro Piedra Natural 1.jpg"
 featured: true
 sellable: false
-payu_purchase_link: https://www.payulatam.com/co/
+payu_purchase_link: ''
 
 ---
 Hermoso Cuarzo Rutilo De Oro Natural Origen India Peso 215.80 Quilates Medidas 82 X 28 X 22 Milímetros
