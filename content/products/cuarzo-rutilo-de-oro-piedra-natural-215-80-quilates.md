@@ -9,7 +9,7 @@ images:
 - "/uploads/Cuarzo Rutilo De Oro Piedra Natural 2.jpg"
 - "/uploads/Cuarzo Rutilo De Oro Piedra Natural 1.jpg"
 featured: true
-sellable: true
+sellable: false
 payu_purchase_link: https://www.payulatam.com/co/
 
 ---
