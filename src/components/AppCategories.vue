@@ -1,9 +1,9 @@
 <template>
-  <ul class="category-list is-flex overflow-x-scroll">
+  <ul class="category-list is-flex flex-wrap">
     <li
       v-for="{ node } in $static.allCategory.edges"
       :key="node.title"
-      class="mr-2 flex-shrink-0"
+      class="m-1 flex-shrink-0"
     >
       <g-link :to="node.path" class="is-block" exact-active-class="exact" exact>
         <div class="is-flex items-center h-8 has-background-white-ter rounded">
