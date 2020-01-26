@@ -47,7 +47,6 @@ query AllProduct {
         }
         available
         unit_price
-        featured
         sellable
         payu_purchase_link
         images(width: 240, height: 240, fit: contain, background: "white")
