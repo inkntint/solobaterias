@@ -11,4 +11,6 @@ images:
 sellable: false
 payu_purchase_link: ""
 date: 2020-01-26T00:00:00-05:00
----Hermoso Coral Fósil Origen Asia Peso 65.05 Quilates Medidas Largo 45 Milímetros Ancho 21 Milímetros Alto 8 Milímetros
+---
+
+Hermoso Coral Fósil Origen Asia Peso 65.05 Quilates Medidas Largo 45 Milímetros Ancho 21 Milímetros Alto 8 Milímetros
