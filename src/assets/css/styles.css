@@ -39,8 +39,8 @@
 .h-14 {
   height: var(--spacing-14);
 }
-.overflow-x-scroll {
-  overflow-x: scroll;
+.flex-wrap {
+  flex-wrap: wrap;
 }
 .flex-col {
   flex-direction: column;
@@ -99,6 +99,9 @@
 }
 .ml-2 {
   margin-left: var(--spacing-2);
+}
+.m-1 {
+  margin: var(--spacing-1);
 }
 .mt-5 {
   margin-top: var(--spacing-5) !important;
