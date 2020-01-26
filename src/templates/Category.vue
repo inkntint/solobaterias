@@ -1,6 +1,6 @@
 <template>
   <app-shell>
-    <template #body>
+    <app-section class="pt-0">
       <ul>
         <li v-for="{ node } in $page.category.belongsTo.edges" :key="node.id">
           <g-link :to="node.path">
@@ -10,7 +10,7 @@
           </g-link>
         </li>
       </ul>
-    </template>
+    </app-section>
   </app-shell>
 </template>
 

@@ -1,13 +1,17 @@
 <template>
-  <app-shell>
-    <app-section class="pt-0">
-      Hello, world!
-    </app-section>
-  </app-shell>
+	<app-shell>
+		<q-semi-precious-stones />
+		<q-precious-stones />
+	</app-shell>
 </template>
 
 <script>
-export default {
-  components: {}
-};
+	import QSemiPreciousStones from "../components/QSemiPreciousStones";
+	import QPreciousStones from "../components/QPreciousStones";
+	export default {
+		components: {
+			QSemiPreciousStones,
+			QPreciousStones
+		}
+	};
 </script>
