@@ -9,6 +9,7 @@
   "dependencies": {
     "buefy": "^0.8.9",
     "circular-std": "^1.0.3",
+    "glider-js": "^1.7.1",
     "gridsome": "^0.7.0"
   },
   "devDependencies": {
