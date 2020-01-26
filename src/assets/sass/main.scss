@@ -18,7 +18,12 @@ $family-primary: $family-sans-serif;
 .exact div span {
   color: $primary-dark !important;
 }
-
+.glider-dot.active {
+  background: $primary-dark !important;
+}
+.glider-dot:hover {
+  background: $primary-light !important;
+}
 // Setup $colors to use as bulma classes (e.g. 'is-twitter')
 $colors: (
   "white": (

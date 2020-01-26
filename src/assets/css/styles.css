@@ -69,6 +69,12 @@
 .justify-end {
   justify-content: flex-end;
 }
+.border-whitesmoke {
+  border-color: lightgray !important;
+}
+.border {
+  border: 1px solid;
+}
 .rounded {
   border-radius: var(--spacing-sm);
 }
@@ -109,9 +115,6 @@
 .ml-1 {
   margin-left: var(--spacing-1);
 }
-.overflow-x-scroll {
-  overflow-x: scroll;
-}
 .tracking-wide {
   letter-spacing: 0.025em;
 }
@@ -119,13 +122,16 @@
   margin-top: var(--spacing-2);
 }
 .mt-6 {
-  margin-top: var(--spacing-6);
+  margin-top: var(--spacing-6) !important;
 }
 .mx-auto {
   margin: var(--inset-0) auto !important;
 }
 .pt-0 {
   padding-top: 0;
+}
+.p-4 {
+  padding: var(--spacing-4);
 }
 .px-6 {
   padding-left: var(--spacing-6);
@@ -143,6 +149,26 @@
 .shadow-md {
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+.glider::-webkit-scrollbar {
+  display: none;
+}
+.product__item {
+  background: #00000017;
+  background: rgba(0, 0, 0, 0);
+  background: -webkit-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.9)
+  );
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9));
+}
+.pointer-events-none {
+  pointer-events: none;
+}
+.text-base {
+  font-size: var(--spacing-4) !important;
 }
 @media screen and (min-width: 1024px) {
   .sm\:h-60 {
