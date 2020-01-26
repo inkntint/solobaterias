@@ -2,6 +2,16 @@
 label: Products
 hide_body: false
 fields:
+- name: date
+  type: datetime
+  label: Fecha
+  description: ''
+  config:
+    required: true
+    date_format: DD/MM/YYYY
+    time_format: 
+    display_utc: false
+  default: now
 - name: title
   type: text
   config:
