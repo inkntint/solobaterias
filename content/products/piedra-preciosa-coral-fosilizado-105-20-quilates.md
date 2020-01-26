@@ -1,6 +1,6 @@
 ---
 date: 2020-01-26T02:37:02-05:00
-category: Otros
+category: Raras
 available: true
 title: Piedra Preciosa Coral Fosilizado 105.20 Quilates
 unit_price: '60.000'
