@@ -39,6 +39,9 @@
 .h-14 {
   height: var(--spacing-14);
 }
+.overflow-x-scroll {
+  overflow-x: scroll;
+}
 .flex-col {
   flex-direction: column;
 }
