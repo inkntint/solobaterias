@@ -1,20 +1,16 @@
 ---
-category: Semi preciosas
+category: Fósil
 available: true
-title: Cuarzo Rutilo De Oro Piedra Natural 215.80 Quilates
-unit_price: '180.000'
+title: Coral Fósil Piedra Natural 65.05 Quilates
+unit_price: '110.000'
 images:
-- "/uploads/Cuarzo Rutilo De Oro Piedra Natural 4.jpg"
-- "/uploads/Cuarzo Rutilo De Oro Piedra Natural 3.jpg"
-- "/uploads/Cuarzo Rutilo De Oro Piedra Natural 2.jpg"
-- "/uploads/Cuarzo Rutilo De Oro Piedra Natural 1.jpg"
+- "/uploads/IMG_20190913_160209.jpg"
+- "/uploads/IMG_20190913_160145.jpg"
+- "/uploads/IMG_20190913_160212-1.jpg"
+- "/uploads/IMG_20190913_160231-1.jpg"
 featured: true
 sellable: false
 payu_purchase_link: ''
 
 ---
-Hermoso Cuarzo Rutilo De Oro Natural Origen India Peso 215.80 Quilates Medidas 82 X 28 X 22 Milímetros
-
-* Caracteristica 1
-* Caracteristica 2
-* Caracteristica 3
+Hermoso Coral Fósil Origen Asia Peso 65.05 Quilates Medidas Largo 45 Milímetros Ancho 21 Milímetros Alto 8 Milímetros
