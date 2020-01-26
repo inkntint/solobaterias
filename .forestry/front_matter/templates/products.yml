@@ -45,11 +45,6 @@ fields:
   label: Producto disponible
   description: Indica si el producto está disponible
   default: true
-- name: featured
-  type: boolean
-  label: Producto destacado
-  description: Productos destacados aparecen de primero en la página
-  default: false
 - name: sellable
   type: boolean
   label: Producto vendible
