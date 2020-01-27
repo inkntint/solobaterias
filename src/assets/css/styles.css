@@ -13,6 +13,7 @@
   --spacing-16: 64px;
   --spacing-60: 240px;
   --spacing-75: 300px;
+  --spacing-80: 320px;
   --spacing-90: 360px;
   --spacing-sm: 0.25rem;
   --inset-0: 0;
@@ -21,6 +22,9 @@
 
 .object-fit-cover {
   object-fit: cover;
+}
+.object-fit-contain {
+  object-fit: contain;
 }
 .w-full {
   width: var(--spacing-full);
