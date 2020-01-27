@@ -2,12 +2,5 @@
   "logo": "/uploads/logo-circle-dark.svg",
   "hero_img": "/uploads/hero.jpg",
   "hero_message": "Mensaje corto pero atractivo acerca de tu producto",
-  "site_categories": [
-    {
-      "category_title": "Piedras preciosas",
-      "category_url_path": "/piedras-preciosas",
-      "category_icon": "/uploads/category-24px.svg"
-    }
-  ],
   "site_url": "https://mipagina.com"
 }
