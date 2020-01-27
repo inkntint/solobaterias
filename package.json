@@ -7,13 +7,13 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "buefy": "^0.8.9",
+    "buefy": "^0.8.10",
     "circular-std": "^1.0.3",
     "glider-js": "^1.7.1",
     "gridsome": "^0.7.0"
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^2.0.4",
+    "@fullhuman/postcss-purgecss": "^2.0.5",
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-json": "^0.2.1",
     "@gridsome/transformer-remark": "^0.4.0",
