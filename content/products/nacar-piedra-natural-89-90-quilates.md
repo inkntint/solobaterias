@@ -1,5 +1,5 @@
 ---
-date: 2020-01-26T02:31:46-05:00
+date: 2020-01-26T07:31:46.000+00:00
 category: Otros
 available: true
 title: Nacar Piedra Natural 89.90 Quilates
@@ -20,4 +20,4 @@ Con tu primera compra obtendrás mis datos y para futuras compras tendrás excel
 
 somos
 
-[piedraspreciosasycuarzos@gmail.com](piedraspreciosasycuarzos@gmail.com "Correo")
+[piedraspreciosasycuarzos@gmail.com](mailto:piedraspreciosasycuarzos@gmail.com "Correo")
