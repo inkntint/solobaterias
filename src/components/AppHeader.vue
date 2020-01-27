@@ -98,7 +98,7 @@ query {
       node {
         logo(width: 50)
         hero_img(width: 1920)
-		    hero_message
+		hero_message
       }
     }
   }

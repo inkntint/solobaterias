@@ -38,7 +38,7 @@
 					</g-link>
 					<div
 						class="mt-5 is-flex justify-end"
-						v-if="node.available || node.sellable"
+						v-if="node.available && node.sellable"
 					>
 						<b-button
 							type="is-primary"
@@ -64,12 +64,10 @@
 query Category($path: String, $page: Int) {
   category(path: $path) {
     title
-    path
     belongsTo(page: $page) @paginate {
       pageInfo {
         totalPages
         currentPage
-        totalItems
       }
       edges {
         node {
@@ -92,6 +90,7 @@ query Category($path: String, $page: Int) {
 <script>
 	import { Pager } from "gridsome";
 	export default {
+		name: "Category",
 		components: {
 			Pager
 		}
