@@ -7,6 +7,7 @@
   --spacing-5: 20px;
   --spacing-6: 24px;
   --spacing-8: 32px;
+  --spacing-9: 36px;
   --spacing-12: 48px;
   --spacing-14: 56px;
   --spacing-16: 64px;
@@ -48,6 +49,12 @@
 .absolute {
   position: absolute;
 }
+.sticky {
+  position: sticky;
+}
+.top-0 {
+  top: var(--inset-0);
+}
 .bottom-0 {
   bottom: var(--inset-0);
 }
@@ -63,6 +70,9 @@
 .z-200 {
   z-index: calc(var(--z-index) + 100);
 }
+.z-300 {
+  z-index: calc(var(--z-index) + 200);
+}
 .inline-flex {
   display: inline-flex;
 }
@@ -71,6 +81,9 @@
 }
 .justify-end {
   justify-content: flex-end;
+}
+.justify-center {
+  justify-content: center;
 }
 .border-whitesmoke {
   border-color: lightgray !important;
@@ -120,6 +133,9 @@
 }
 .ml-1 {
   margin-left: var(--spacing-1);
+}
+.-ml-1 {
+  margin-left: -4px;
 }
 .tracking-wide {
   letter-spacing: 0.025em;
