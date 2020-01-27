@@ -12,10 +12,10 @@ $family-sans-serif: CircularStd, BlinkMacSystemFont, -apple-system, "Segoe UI",
   "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
   "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 $family-primary: $family-sans-serif;
-.exact div {
+.category--active div {
   background-color: $primary-light !important;
 }
-.exact div span {
+.category--active div span {
   color: $primary-dark !important;
 }
 .glider-dot.active {
@@ -23,6 +23,26 @@ $family-primary: $family-sans-serif;
 }
 .glider-dot:hover {
   background: $primary-light !important;
+}
+.pager a {
+  margin: var(--spacing-1);
+  width: var(--spacing-9);
+  height: var(--spacing-9);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--spacing-1);
+}
+.pager a[aria-current="true"] {
+  background: $primary;
+  color: $primary-invert;
+}
+.pager a:not([aria-current="true"]) {
+  color: $grey-dark;
+  border: 1px solid $grey-lighter;
+}
+.pager a:not([aria-current="true"]):hover {
+  border: 1px solid $grey-light;
 }
 // Setup $colors to use as bulma classes (e.g. 'is-twitter')
 $colors: (
