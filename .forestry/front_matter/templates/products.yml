@@ -19,7 +19,7 @@ fields:
     max: '60'
   label: Título
   description: Ingresa el título del producto
-- name: descripcion
+- name: description
   type: textarea
   default: ''
   config:
