@@ -120,6 +120,9 @@
 .m-1 {
   margin: var(--spacing-1);
 }
+.m-4 {
+  margin: var(--spacing-4);
+}
 .mt-5 {
   margin-top: var(--spacing-5) !important;
 }
@@ -128,6 +131,9 @@
 }
 .mr-2 {
   margin-right: var(--spacing-2);
+}
+.mr-4 {
+  margin-right: var(--spacing-4);
 }
 .mx-3 {
   margin: var(--inset-0) var(--spacing-3);
@@ -140,6 +146,9 @@
 }
 .-ml-1 {
   margin-left: -4px;
+}
+.-ml-4 {
+  margin-left: -16px;
 }
 .tracking-wide {
   letter-spacing: 0.025em;
