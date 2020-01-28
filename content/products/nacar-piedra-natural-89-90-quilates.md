@@ -12,6 +12,8 @@ images:
 - "/uploads/IMG_20190913_160733.jpg"
 sellable: true
 payu_purchase_link: https://www.payulatam.com/co/
+descripcion: Con tu primera compra obtendrás mis datos y para futuras compras tendrás
+  excelentes descuentos
 
 ---
 Concha de Nácar
