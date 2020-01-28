@@ -12,6 +12,7 @@ const Purgecss = require("@fullhuman/postcss-purgecss")({
 });
 
 module.exports = {
+  siteName: "Esmeralda3",
   plugins: [
     {
       use: "@gridsome/source-filesystem",
