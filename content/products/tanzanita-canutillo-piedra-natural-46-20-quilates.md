@@ -1,5 +1,5 @@
 ---
-date: 2020-01-26T02:18:10-05:00
+date: 2020-01-26T07:18:10.000+00:00
 category: Piedras preciosas
 available: false
 title: Tanzanita Canutillo Piedra Natural 46.20 Quilates
@@ -11,6 +11,8 @@ images:
 - "/uploads/IMG_20190913_163000.jpg"
 sellable: false
 payu_purchase_link: ''
+descripcion: Hermosa Tanzanita Natural Origen Kilimanjaro Tanzania Peso 46.20 Quilates
+  Medidas 29 X 20 X 12 Milímetros
 
 ---
 Hermosa Tanzanita Natural Origen Kilimanjaro Tanzania Peso 46.20 Quilates Medidas 29 X 20 X 12 Milímetros
