@@ -88,6 +88,9 @@ query Category($path: String) {
   allGeneralSiteSettings {
     edges {
       node {
+        logo(width: 150, quality: 100)
+        hero_img(width: 1920)
+		    hero_message
         site_url
       }
     }

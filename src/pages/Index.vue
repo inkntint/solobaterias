@@ -8,17 +8,35 @@
   </app-shell>
 </template>
 
-<static-query>
-query AllGeneralSiteSettings {
+<page-query>
+query {
   allGeneralSiteSettings {
     edges {
       node {
+        logo(width: 150, quality: 100)
+        hero_img(width: 1920)
+		    hero_message
         site_url
       }
     }
   }
+  allProduct {
+    edges {
+      node {
+        id
+        path
+        title
+        category {
+          title
+        }
+        available
+        unit_price
+        images(width: 48, height: 48, fit: contain, background: "white", quality: 100)
+      }
+    }
+  }
 }
-</static-query>
+</page-query>
 
 <script>
 import QPreciousStones from "../components/QPreciousStones";
@@ -57,7 +75,7 @@ export default {
         // og / facebook
         {
           property: "og:url",
-          content: this.$static.allGeneralSiteSettings.edges[0].node.site_url
+          content: this.$page.allGeneralSiteSettings.edges[0].node.site_url
         },
         {
           property: "og:title",
@@ -69,7 +87,7 @@ export default {
         },
         {
           property: "og:image",
-          content: `${this.$static.allGeneralSiteSettings.edges[0].node.site_url}/og.jpg`
+          content: `${this.$page.allGeneralSiteSettings.edges[0].node.site_url}/og.jpg`
         },
         { property: "og:type", content: "website" },
         { property: "og:locale", content: "es_CO" },
@@ -77,7 +95,7 @@ export default {
         { property: "twitter:card", content: "summary_large_image" },
         {
           property: "twitter:url",
-          content: this.$static.allGeneralSiteSettings.edges[0].node.site_url
+          content: this.$page.allGeneralSiteSettings.edges[0].node.site_url
         },
         {
           property: "twitter:title",
@@ -89,7 +107,7 @@ export default {
         },
         {
           property: "twitter:image",
-          content: `${this.$static.allGeneralSiteSettings.edges[0].node.site_url}/og.jpg`
+          content: `${this.$page.allGeneralSiteSettings.edges[0].node.site_url}/og.jpg`
         }
       ]
     };
@@ -100,6 +118,9 @@ export default {
     QFossil,
     QRares,
     QOthers
+  },
+  mounted() {
+    this.$store.commit("addProducts", this.$page.allProduct.edges);
   }
 };
 </script>

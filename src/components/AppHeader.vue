@@ -8,7 +8,7 @@
           <div class="level-item">
             <g-link to="/">
               <g-image
-                :src="$static.allGeneralSiteSettings.edges[0].node.logo"
+                :src="$page.allGeneralSiteSettings.edges[0].node.logo"
                 alt="Logo"
               />
             </g-link>
@@ -27,7 +27,7 @@
           <div class="columns is-gapless">
             <div class="column is-full">
               <h1 class="is-size-4 has-text-white has-text-centered-tablet">
-                {{ $static.allGeneralSiteSettings.edges[0].node.hero_message }}
+                {{ $page.allGeneralSiteSettings.edges[0].node.hero_message }}
               </h1>
             </div>
           </div>
@@ -84,52 +84,24 @@
       </div>
     </div>
     <g-image
-      :src="$static.allGeneralSiteSettings.edges[0].node.hero_img"
-      :alt="$static.allGeneralSiteSettings.edges[0].node.hero_message"
+      :src="$page.allGeneralSiteSettings.edges[0].node.hero_img"
+      :alt="$page.allGeneralSiteSettings.edges[0].node.hero_message"
       class="object-fit-cover w-full h-full is-block"
     />
   </section>
 </template>
 
-<static-query>
-query {
-  allGeneralSiteSettings {
-    edges {
-      node {
-        logo(width: 150, quality: 100)
-        hero_img(width: 1920)
-		hero_message
-      }
-    }
-  }
-  allProduct {
-    edges {
-      node {
-        id
-        path
-        title
-        category {
-          title
-        }
-        available
-        unit_price
-        images(width: 48, height: 48, fit: contain, background: "white", quality: 100)
-      }
-    }
-  }
-}
-</static-query>
-
 <script>
 export default {
   data() {
     return {
-      product: ""
+      product: "",
+      allProducts: []
     };
   },
   computed: {
     filteredDataArray() {
-      return this.$static.allProduct.edges.filter(({ node }) => {
+      return this.$store.getters.getAllProducts.filter(({ node }) => {
         return (
           node.title
             .toString()
@@ -142,7 +114,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 a.dropdown-item {
   padding-right: var(--spacing-4);
 }

@@ -7,8 +7,26 @@ import AppShell from "./layouts/AppShell";
 import AppSection from "./components/AppSection";
 import CarouselProductCard from "./components/CarouselProductCard";
 import GliderJs from "./components/GliderJs";
+import Vuex from "vuex";
 
-export default function(Vue, { router, head, isClient }) {
+export default function(Vue, { router, head, isClient, appOptions }) {
+  Vue.use(Vuex);
+  appOptions.store = new Vuex.Store({
+    state: {
+      allProducts: []
+    },
+    mutations: {
+      addProducts(state, payload) {
+        state.allProducts = payload;
+      }
+    },
+    getters: {
+      getAllProducts(state) {
+        return state.allProducts;
+      }
+    }
+  });
+
   head.link.push({
     rel: "stylesheet",
     href:
