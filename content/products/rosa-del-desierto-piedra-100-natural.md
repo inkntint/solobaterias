@@ -1,5 +1,5 @@
 ---
-date: 2020-01-26T02:56:10-05:00
+date: 2020-01-26T07:56:10.000+00:00
 category: Semi preciosas
 available: true
 title: Rosa del Desierto Piedra 100% Natural
@@ -10,6 +10,9 @@ images:
 - "/uploads/1a67b25c-dab9-42e9-98b5-95a5ba26fd79.jpg"
 sellable: false
 payu_purchase_link: ''
+descripcion: Hermoso y Raro Espécimen de Piedra Rosa De Desierto Origen Argelia desierto
+  del Sáhara Peso 160 Gramos Medidas Largo 83.71 Milímetros Ancho 71.76 Milímetros
+  Alto 60.15 Milímetros
 
 ---
 Hermoso y Raro Espécimen de Piedra Rosa De Desierto Origen Argelia desierto del Sáhara Peso 160 Gramos Medidas Largo 83.71 Milímetros Ancho 71.76 Milímetros Alto 60.15 Milímetros

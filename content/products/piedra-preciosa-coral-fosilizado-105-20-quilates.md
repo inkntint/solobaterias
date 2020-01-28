@@ -1,5 +1,5 @@
 ---
-date: 2020-01-26T02:37:02-05:00
+date: 2020-01-26T07:37:02.000+00:00
 category: Raras
 available: true
 title: Piedra Preciosa Coral Fosilizado 105.20 Quilates
@@ -9,6 +9,8 @@ images:
 - "/uploads/IMG_20190913_160106.jpg"
 sellable: false
 payu_purchase_link: ''
+descripcion: Coral Fosilizado Piedra Natural 100% Natural Origen Marruecos Peso 105.20
+  Quilates Medidas 48 X 8 Milímetros
 
 ---
 Coral Fosilizado Piedra Natural 100% Natural Origen Marruecos Peso 105.20 Quilates Medidas 48 X 8 Milímetros
