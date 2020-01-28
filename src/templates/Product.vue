@@ -72,7 +72,7 @@
               icon-left="whatsapp"
               tag="a"
               :href="
-                `https://wa.me/123123123?text=Hola, estoy interesado en este producto: https://esmeralda3.com${$page.product.path}`
+                `https://wa.me/573122427586?text=Hola, estoy interesado en este producto: https://esmeralda3.com${$page.product.path}`
               "
               outlined
               expanded
