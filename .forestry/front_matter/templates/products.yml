@@ -19,6 +19,16 @@ fields:
     max: '60'
   label: Título
   description: Ingresa el título del producto
+- name: descripcion
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Descripción
+  description: Corta descripción del producto
 - name: category
   type: select
   default: Piedras preciosas
