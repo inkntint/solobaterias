@@ -2,17 +2,33 @@
 date: 2020-01-26T07:37:02.000+00:00
 category: Accesorios
 available: true
-title: Piedra Preciosa Coral Fosilizado 105.20 Quilates
-unit_price: '60.000'
+title: Audífonos Sony Noise Cancelling Bluetooth - Wh-1000xm3
+unit_price: '999.900'
 images:
-- "/uploads/IMG_20190913_160052.jpg"
-- "/uploads/IMG_20190913_160106.jpg"
+- "/uploads/download (1).jpeg"
+- "/uploads/61lSFUCrSYL._AC_SX425_.jpg"
 sellable: false
 payu_purchase_link: ''
-description: Coral Fosilizado Piedra Natural 100% Natural Origen Marruecos Peso 105.20
-  Quilates Medidas 48 X 8 Milímetros
+description: Los audífonos WH-1000XM3 te permiten sumergirte aún más en el silencio
+  con las nuevas mejoras en la tecnología noise cancelling líder del sector1 y el
+  audio inteligente que se ajusta a la situación.
 
 ---
-Coral Fosilizado Piedra Natural 100% Natural Origen Marruecos Peso 105.20 Quilates Medidas 48 X 8 Milímetros
-
-Uno de los amuletos-protectores que podemos considerar efectivos en magia procede de la Prehistoria. Las "amonitas" o "amonoideos" eran pequeños animalillos marinos que tenían aspecto de pulpos dentro de una concha (que para muchos es una construcción perfecta) y, aparte, eran grandes depredadores, a pesar de su reducido tamaño. Por eso, desde la Antigüedad, se conserva este fósil como un ejemplo de que "ser pequeño no significa ser insignificante", y así como las amonitas se enfrentaban ferozmente a sus grandes enemigos, nosotros también podemos protegernos con esta pieza de los peligros que nos acechan . En muchos países se utilizan estos fósiles como amuleto protector de todo tipo de enfermedades, costumbre que se remonta a la Inglaterra del siglo XVII. Se cuenta que una abadesa, santa Hilda, quería construir una iglesia en un lugar totalmente infectado de serpientes. Decidida, dio muerte a los ofidios que se convirtieron en piedra. A partir de entonces, en ese país, a los amonites se les suele llamar «serpientes enrolladas», ya que se cree que son las que la santa petrificó. Pero aunque se sabe que un amonite no es una serpiente sino un fósil, estas piedras tienen propiedades mágicas. Se utilizan como talismanes que confieren a sus poseedores paciencia y dominio sobre situaciones complejas. Durante muchos siglos los fósiles molidos se han administrado como medicamentos a los enfermos, no sólo en Europa sino también en Asia.
+Funda de transporte  
+Adaptador de enchufe para uso en aviones  
+Cable de los audífonos (aprox. 1,2 m)  
+Cable USB: Type-C™ (aprox. 20 cm)  
+Audífonos Sony Noise Cancelling Bluetooth - Wh-1000xm3  
+  
+Los audífonos WH-1000XM3 te permiten sumergirte aún más en el silencio con las nuevas mejoras en la tecnología noise cancelling líder del sector y el audio inteligente que se ajusta a la situación.  
+  
+Caraterísticas Principales  
+  
+Los audífonos WH-1000XM3 te permiten sumergirte aún más en el silencio con las nuevas mejoras en la tecnología noise cancelling líder del sector y el audio inteligente que se ajusta a la situación.  
+  
+  
+Sumérgete en el silencio con la tecnología noise cancelling líder del sector  
+Huye del ruido de la ciudad con la tecnología noise cancelling líder del sector. La tecnología de noise cancelling integrada en los audífonos WH-1000XM3 es la más avanzada, con ajustadas almohadillas y nuestro procesador de noise cancelling HD QN1.  
+  
+Más potencia = aún menos ruido  
+Nuestro nuevo procesador de noise cancelling HD QN1 mejora enormemente el noise cancelling. Contar con un procesador de NC específico también garantiza que la reproducción de la música nunca se vea afectada por el rendimiento del procesador.
