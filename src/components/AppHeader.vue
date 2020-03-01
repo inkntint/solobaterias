@@ -16,7 +16,21 @@
 				</div>
 				<div class="level-right">
 					<div class="level-item">
-						<a href="https://wa.me/00000000000" class="leading-none">
+						<a
+							href="tel:5579976"
+							class="leading-none"
+							style="margin-right: 8px;"
+						>
+							<b-icon icon="phone" type="is-white" />
+						</a>
+						<a
+							href="mailto:solobateriasmedellin@hotmail.com"
+							class="leading-none"
+							style="margin-right: 8px;"
+						>
+							<b-icon icon="email" type="is-white" />
+						</a>
+						<a href="https://wa.me/00000000001" class="leading-none">
 							<b-icon icon="whatsapp" type="is-white" />
 						</a>
 					</div>
