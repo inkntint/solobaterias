@@ -50,7 +50,7 @@
 							<b-autocomplete
 								v-model="product"
 								:data="filteredDataArray"
-								placeholder="Buscar por minerales, cuarzos, gemas, opalos..."
+								placeholder="Buscar por baterías, teléfonos, accesorios..."
 								icon="magnify"
 								size="is-medium"
 								:clear-on-select="true"
