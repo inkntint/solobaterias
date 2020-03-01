@@ -1,5 +1,5 @@
 module.exports = {
-  siteName: "Esmeralda3",
+  siteName: "Solobaterias",
   plugins: [
     {
       use: "@gridsome/source-filesystem",
