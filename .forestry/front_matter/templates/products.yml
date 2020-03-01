@@ -35,11 +35,9 @@ fields:
   config:
     required: true
     options:
-    - Piedras preciosas
-    - Semi preciosas
-    - Fósil
-    - Raras
-    - Otros
+    - Baterías
+    - Celulares
+    - Accesorios
     source:
       type: simple
       section: 
