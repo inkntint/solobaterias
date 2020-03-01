@@ -1,10 +1,8 @@
 <template>
 	<app-shell>
-		<q-precious-stones />
-		<q-semi-precious-stones />
-		<q-fossil />
-		<q-rares />
-		<q-others />
+		<q-baterias></q-baterias>
+		<q-celulares></q-celulares>
+		<q-accesorios></q-accesorios>
 	</app-shell>
 </template>
 
@@ -39,11 +37,9 @@ query {
 </page-query>
 
 <script>
-	import QPreciousStones from "../components/QPreciousStones";
-	import QSemiPreciousStones from "../components/QSemiPreciousStones";
-	import QFossil from "../components/QFossil";
-	import QRares from "../components/QRares";
-	import QOthers from "../components/QOthers";
+	import QBaterias from "../components/QBaterias";
+	import QCelulares from "../components/QCelulares";
+	import QAccesorios from "../components/QAccesorios";
 
 	export default {
 		name: "Home",
@@ -113,11 +109,9 @@ query {
 			};
 		},
 		components: {
-			QSemiPreciousStones,
-			QPreciousStones,
-			QFossil,
-			QRares,
-			QOthers
+			QCelulares,
+			QBaterias,
+			QAccesorios
 		},
 		mounted() {
 			this.$store.commit("addProducts", this.$page.allProduct.edges);
