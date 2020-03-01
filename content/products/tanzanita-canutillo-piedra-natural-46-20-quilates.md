@@ -1,20 +1,17 @@
 ---
 date: 2020-01-26T07:18:10.000+00:00
 category: Baterías
-available: false
-title: Tanzanita Canutillo Piedra Natural 46.20 Quilates
-unit_price: '900.000'
+available: true
+title: Bateria Pila Samsung J7 J5 J3 J2 Prime S5 S4 S3 Original
+unit_price: '55.900'
 images:
-- "/uploads/IMG_20190913_162927.jpg"
-- "/uploads/IMG_20190913_162906.jpg"
-- "/uploads/IMG_20190913_162932.jpg"
-- "/uploads/IMG_20190913_163000.jpg"
-sellable: false
-payu_purchase_link: ''
-description: Hermosa Tanzanita Natural Origen Kilimanjaro Tanzania Peso 46.20 Quilates
-  Medidas 29 X 20 X 12 Milímetros
+- "/uploads/repuesto-bateria-samsung-galaxy-j7-eb-bj700cbe-3300-mah-1.jpg"
+- "/uploads/61NA6qu1pbL._AC_SL1500_.jpg"
+sellable: true
+payu_purchase_link: https://www.payulatam.com/co/
+description: Bateria Samsung J7 J5 J3 Grand Prime J2 S5 S4 S3 CALIDAD Original
 
 ---
-Hermosa Tanzanita Natural Origen Kilimanjaro Tanzania Peso 46.20 Quilates Medidas 29 X 20 X 12 Milímetros
-
-Actualmente la Tanzanita es una gema mas buscadas, debido a su belleza, los mejores ejemplares están destinados para la joyería de alto nivel alcanzando precio altos incluso mas que algunos ejemplares de diamante. La tanzanita se luce mejor en talla oval, aunque tambien se emplean las tallas rectangular y redonda. otras tallas que se usan son las tallas de fantasia, en forma de flor y corazon. Suele utilizarse la talla en cabujon para resaltar el efecto ojo de gato que presentan algunas piezas particulares.
+Confirmar color o módelo dependiendo del artículo publicado del cual usted desea hacer la compra  
+  
+La foto que hay en la publicacion es la del Samsung J7, por lo cual para las demas referencias es solo como referencia. Simplemente indiquenos de cual modelo necesita exactamente y esa sera la que se envia
