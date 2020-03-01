@@ -1,11 +1,11 @@
 <template>
-  <app-shell>
-    <q-precious-stones />
-    <q-semi-precious-stones />
-    <q-fossil />
-    <q-rares />
-    <q-others />
-  </app-shell>
+	<app-shell>
+		<q-precious-stones />
+		<q-semi-precious-stones />
+		<q-fossil />
+		<q-rares />
+		<q-others />
+	</app-shell>
 </template>
 
 <page-query>
@@ -39,88 +39,88 @@ query {
 </page-query>
 
 <script>
-import QPreciousStones from "../components/QPreciousStones";
-import QSemiPreciousStones from "../components/QSemiPreciousStones";
-import QFossil from "../components/QFossil";
-import QRares from "../components/QRares";
-import QOthers from "../components/QOthers";
+	import QPreciousStones from "../components/QPreciousStones";
+	import QSemiPreciousStones from "../components/QSemiPreciousStones";
+	import QFossil from "../components/QFossil";
+	import QRares from "../components/QRares";
+	import QOthers from "../components/QOthers";
 
-export default {
-  name: "Home",
-  data() {
-    return {
-      meta: {
-        title:
-          "Venta y talla de miles de rocas preciosas, semipreciosas y fósiles",
-        description:
-          "En Esmeralda3 vendemos y tallamos todo tipo de rocas preciosas y semipreciosas, con un inventario de más de 10.000 piezas entre meteoritos, raras y más"
-      }
-    };
-  },
-  metaInfo() {
-    return {
-      title: this.meta.title,
-      htmlAttrs: {
-        lang: "es-CO"
-      },
-      meta: [
-        {
-          name: "title",
-          content: this.meta.title
-        },
-        {
-          name: "description",
-          content: this.meta.description
-        },
-        // og / facebook
-        {
-          property: "og:url",
-          content: this.$page.allGeneralSiteSettings.edges[0].node.site_url
-        },
-        {
-          property: "og:title",
-          content: this.meta.title
-        },
-        {
-          property: "og:description",
-          content: this.meta.description
-        },
-        {
-          property: "og:image",
-          content: `${this.$page.allGeneralSiteSettings.edges[0].node.site_url}/og.jpg`
-        },
-        { property: "og:type", content: "website" },
-        { property: "og:locale", content: "es_CO" },
-        // twitter
-        { property: "twitter:card", content: "summary_large_image" },
-        {
-          property: "twitter:url",
-          content: this.$page.allGeneralSiteSettings.edges[0].node.site_url
-        },
-        {
-          property: "twitter:title",
-          content: this.meta.title
-        },
-        {
-          property: "twitter:description",
-          content: this.meta.description
-        },
-        {
-          property: "twitter:image",
-          content: `${this.$page.allGeneralSiteSettings.edges[0].node.site_url}/og.jpg`
-        }
-      ]
-    };
-  },
-  components: {
-    QSemiPreciousStones,
-    QPreciousStones,
-    QFossil,
-    QRares,
-    QOthers
-  },
-  mounted() {
-    this.$store.commit("addProducts", this.$page.allProduct.edges);
-  }
-};
+	export default {
+		name: "Home",
+		data() {
+			return {
+				meta: {
+					title:
+						"Distribuidor y fabricador de baterías para todo tipo de celulares",
+					description:
+						"En Solo Baterías distribuimos y fabricamos todo tipo de baterías para celulares con distribución en toda Medellín"
+				}
+			};
+		},
+		metaInfo() {
+			return {
+				title: this.meta.title,
+				htmlAttrs: {
+					lang: "es-CO"
+				},
+				meta: [
+					{
+						name: "title",
+						content: this.meta.title
+					},
+					{
+						name: "description",
+						content: this.meta.description
+					},
+					// og / facebook
+					{
+						property: "og:url",
+						content: this.$page.allGeneralSiteSettings.edges[0].node.site_url
+					},
+					{
+						property: "og:title",
+						content: this.meta.title
+					},
+					{
+						property: "og:description",
+						content: this.meta.description
+					},
+					{
+						property: "og:image",
+						content: `${this.$page.allGeneralSiteSettings.edges[0].node.site_url}/og.jpg`
+					},
+					{ property: "og:type", content: "website" },
+					{ property: "og:locale", content: "es_CO" },
+					// twitter
+					{ property: "twitter:card", content: "summary_large_image" },
+					{
+						property: "twitter:url",
+						content: this.$page.allGeneralSiteSettings.edges[0].node.site_url
+					},
+					{
+						property: "twitter:title",
+						content: this.meta.title
+					},
+					{
+						property: "twitter:description",
+						content: this.meta.description
+					},
+					{
+						property: "twitter:image",
+						content: `${this.$page.allGeneralSiteSettings.edges[0].node.site_url}/og.jpg`
+					}
+				]
+			};
+		},
+		components: {
+			QSemiPreciousStones,
+			QPreciousStones,
+			QFossil,
+			QRares,
+			QOthers
+		},
+		mounted() {
+			this.$store.commit("addProducts", this.$page.allProduct.edges);
+		}
+	};
 </script>
